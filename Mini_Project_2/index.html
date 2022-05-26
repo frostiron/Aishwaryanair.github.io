@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/calc.jpg">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Calculator</title>
+    <style type="text/css">
+        body {
+            background: url(img/background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        #head {
+            font-size: 4rem;
+            color: blueviolet;
+            background-color: yellow;
+        }
+
+        #input {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+            font-weight: 1cm;
+
+        }
+
+        #operation {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+            font-weight: 1cm;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 id="head">CALCULATOR</h1>
+        <br><br>
+
+        <section id="pic">
+            <img src="img/calc.jpg" width="400" height="400"><br>
+        </section>
+        <br><br>
+        <section id="input">
+            Input 1 <input type="number" name="input1" placeholder="First no.">
+            <br><br>
+            Input 2 <input type="number" name="input2" placeholder="Second no."><br>
+        </section>
+        <br><br>
+        <section id="operation">
+            Select Operation <select name=operation>
+                <option value="Select..">Select..</option>
+                <option value="ADD">ADD</option>
+                <option value="SUBTRACT">SUBTRACT</option>
+                <option value="MULTIPLY">MULTIPLY</option>
+                <option value="DIVIDE">DIVIDE</option>
+            </select>
+        </section>
+        <br><br>
+        <section id="btn">
+
+            <button type="button" class="btn btn-warning btn-lg">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-warning btn-lg">Reset</button>
+            
+        </section>
+    </center>
+
+</body>
+
+</html>
