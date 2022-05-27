@@ -1,0 +1,185 @@
+body {
+    font: 76% arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    margin: 0 10px 10px
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+div#container {
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    right: 0px;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto
+}
+
+div#header {
+    text-align: center;
+    background-color: black;
+    height: 170px;
+}
+
+div#header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2cm;
+    color: antiquewhite;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#pic {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    height: 140px;
+    width: 150px;
+    float: left;
+
+}
+
+div#navigation {
+    margin: 0 auto;
+    height: 51px;
+    width: 100%;
+    background: #cab888;
+     position: absolute;
+    top: 0;
+    left: 0; 
+
+}
+
+
+#head {
+    font-family: 'Koulen', cursive;
+    font-size: 1.2cm;
+    letter-spacing: 1px;
+  
+}
+
+.navbar-nav {
+    float: right;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 0.7cm;
+    padding-right: 15px;
+  
+
+}
+
+.nav-link {
+    float: right;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 0.7cm;
+    padding-right: 15px;
+ 
+}
+
+.nav-link:hover {
+    background-color: #fcc735;
+}
+
+div#content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    position: absolute;
+    float: left;
+    top: 150%;
+    width: 58%;
+    height: 400px;
+    
+}
+
+
+div#content p {
+    line-height: 1.4
+}
+
+
+#carouselExampleSlidesOnly {
+    position: absolute;
+    top: 150%;
+    height: 700px;
+    width: 40%;
+    left: 58%;
+    margin-bottom: 5rem;
+}
+
+.carousel-inner {
+    float: right;
+    height: 700px;
+    width: 100%;
+   
+}
+
+.d-block w-100 {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+div#footer {
+    position: absolute;
+    top: 615%;
+    bottom: 0;
+    height: 450px;
+    width: 100%;
+    float: left;
+    background: #BFBD93;
+}
+
+div#footer p {
+
+    padding: 5px;
+}
+
+.icon {
+    margin-left: 3rem;
+}
+
+#mail {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    position: absolute;
+    left: 2%;
+}
+
+.icon2{
+    
+    position: absolute;
+    bottom: 58%;
+    left: 13%;
+}
+
+#mail2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    position: absolute;
+    left: 1%;
+}
+
+#map {
+    position: absolute;
+    bottom: 6%;
+    right: 8%;
+}
